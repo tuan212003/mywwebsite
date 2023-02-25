@@ -1,0 +1,126 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2022/06/Hinh-nen-iPad-4K.jpg);
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+.menu>ul>a {
+    display: none;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
+    border-radius: 20px;
+    font-size: 25px;
+    width: 30%;
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+    left: -20px;
+}
+
+.check:checked~.menu>ul>a {
+    display: block;
+}
+
+.check {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.488);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Name {
+    font-size: 40px;
+    color: rgb(83, 37, 129);
+    font-family: italic;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.d3 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 170px;
+}
+
+.fa-solid {
+    color: #a2e1fd;
+    font-size: 30px;
+    float: left;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+}
+
+.b1 {
+    position: relative;
+    font-family: italic;
+    font-size: 35px;
+    color: white;
+    top: 5px;
+}
+
+.b2 {
+    position: relative;
+    font-family: italic;
+    font-size: 35px;
+    color: white;
+    top: 5px;
+}
+
+.ava {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    border-radius: 50%;
+    width: 18%;
+}
+
+.d1 {
+    content: "";
+    display: block;
+    background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.d2 {
+    content: "";
+    display: block;
+    background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.d4 {
+    content: "";
+    display: block;
+    background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 35px;
+    color: white;
+}
