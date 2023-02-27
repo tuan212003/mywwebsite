@@ -17,6 +17,7 @@ body {
     padding: 5px;
     position: relative;
     left: -20px;
+    box-shadow: rgb(39, 38, 38) 0.1em 0.1em 0.2em;
 }
 
 .check:checked~.menu>ul>a {
@@ -42,23 +43,11 @@ a {
 
 .Name {
     font-size: 40px;
-    color: rgb(83, 37, 129);
+    color: rgb(255, 255, 255);
     font-family: italic;
     margin-top: 40px;
     margin-bottom: 20px;
-}
-
-.d3 {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    width: 170px;
-}
-
-.fa-solid {
-    color: #a2e1fd;
-    font-size: 30px;
-    float: left;
+    text-shadow: rgb(39, 38, 38) 0.1em 0.1em 0.2em
 }
 
 .fa-brands {
@@ -91,36 +80,86 @@ a {
 
 img {
     border-radius: 50%;
-    width: 18%;
+    width: 220px;
 }
 
 .d1 {
     content: "";
     display: block;
     background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
-    height: 50px;
     width: 50%;
     border-radius: 30px;
+    box-shadow: rgb(39, 38, 38) 0.1em 0.1em 0.2em;
+    padding-bottom: 10px;
 }
 
 .d2 {
     content: "";
     display: block;
     background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
-    height: 50px;
     width: 50%;
     border-radius: 30px;
     margin-top: 30px;
+    box-shadow: rgb(39, 38, 38) 0.1em 0.1em 0.2em;
+    padding-bottom: 10px;
+}
+
+.d21 {
+    content: "";
+    display: block;
+    background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: rgb(39, 38, 38) 0.1em 0.1em 0.2em;
+    padding-bottom: 10px;
+}
+
+.d21>a {
+    position: relative;
+    font-family: italic;
+    font-size: 35px;
+    color: white;
+    top: 5px;
+}
+
+.d3 {
+    background-color: #a2e2fd3b;
+    border: 1px solid #a2e1fd;
+    border-radius: 20px;
+    width: 50%;
 }
 
 .d4 {
     content: "";
     display: block;
     background-image: linear-gradient(90deg, #c74cfc, #a2e1fd);
-    height: 50px;
     width: 50%;
     border-radius: 30px;
     margin-top: 30px;
     font-size: 35px;
     color: white;
+    box-shadow: rgb(39, 38, 38) 0.1em 0.1em 0.2em;
+    padding-bottom: 10px;
+}
+
+p {
+    color: rgb(228, 228, 228);
+    font-size: 25px;
+    font-family: italic;
+    text-shadow: rgb(82, 82, 82) 0.1em 0.1em 0.2em;
+}
+
+b {
+    color: rgb(255, 255, 255);
+}
+
+.fa-solid {
+    color: white;
+}
+
+.ttcn {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(82, 82, 82) 0.1em 0.1em 0.2em;
 }
